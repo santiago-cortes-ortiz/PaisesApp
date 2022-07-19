@@ -1,18 +1,14 @@
 <h2>Por Pais</h2>
 <hr>
 <div class="row">
-    <div class="col">
-        <form class="" action="" autocomplete="off">
-            <input class="form-control" type="text" name="termino" placeholder="Buscar pais..">
-        </form>
-    </div>
+        <form>
+            <input class="form-control" type="text" name="termino" [(ngModel)]="termino" placeholder="Buscar pais.."/>
+        </form>     
 </div>
 <hr>
-
 <div class="alert alert-danger">
     No se encontro nada con el termino de busqueda
 </div>
-
 <div class="row">
     <div class="col">
         <table class="table table-hover">
