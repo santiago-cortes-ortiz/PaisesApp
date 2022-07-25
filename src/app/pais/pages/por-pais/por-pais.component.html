@@ -1,7 +1,7 @@
 <h2>Por Pais</h2>
 <hr>
 <div class="row">
-        <form>
+        <form (ngSubmit)="buscar()" >
             <input class="form-control" type="text" name="termino" [(ngModel)]="termino" placeholder="Buscar pais.."/>
         </form>     
 </div>
@@ -28,7 +28,7 @@
                     <td>nombre</td>
                     <td>2525235</td>
                     <td>
-                        <a href="">Ver...</a>
+                        <a href="private apiUrl: string = 'https://restcountries.com/v2';">Ver...</a>
                     </td>
                 </tr>
             </tbody>

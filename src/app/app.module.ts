@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
+
 import { PaisModule } from './pais/pais.module';
 
 @NgModule({
@@ -16,7 +17,8 @@ import { PaisModule } from './pais/pais.module';
     BrowserModule,
     AppRoutingModule,
     SharedModule,
-    RouterModule,PaisModule
+    RouterModule,PaisModule,
+    HttpClientModule
     
   ],
   providers: [],
