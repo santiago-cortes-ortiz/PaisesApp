@@ -6,8 +6,8 @@
         </form>     
 </div>
 <hr>
-<div class="alert alert-danger">
-    No se encontro nada con el termino de busqueda
+<div *ngIf="error" class="alert alert-danger">
+    No se encontro nada con el termino de busqueda {{termino}}
 </div>
 <div class="row">
     <div class="col">
