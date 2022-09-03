@@ -35,6 +35,11 @@ export class PorPaisComponent{
     );
   }
 
+  sugerencias(termino: string){
+    this.error = false;
+    //crear sugerencias
+  }
+
 
 
 }
